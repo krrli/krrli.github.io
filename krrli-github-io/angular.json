@@ -75,6 +75,14 @@
             }
           }
         },
+        "deploy": {
+          "builder": "angular-cli-ghpages:deploy",
+          "options": {
+            "baseHref": "https://krrli.github.io/",
+            "name": "Carla Iten",
+            "branch": "master"
+          }
+        },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
