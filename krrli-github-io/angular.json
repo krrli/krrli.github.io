@@ -79,7 +79,8 @@
           "builder": "angular-cli-ghpages:deploy",
           "options": {
             "baseHref": "https://krrli.github.io/",
-            "name": "Carla Iten"
+            "name": "Carla Iten",
+            "message": "deploy to github pages"
           }
         },
         "extract-i18n": {
